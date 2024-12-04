@@ -6,6 +6,9 @@ This report presents a comprehensive data engineering and machine learning analy
 Political violence and civil unrest in Africa pose significant challenges for local communities,  humanitarian organizations and policymakers. This project aims to tackle these challenges through two main objectives: predicting fatalities in conflict events and classifying the types of these events. To achieve this, two models were developed to provide actionable insights for decision-makers, utilizing a dataset of 388, 402 events spanning from 1997 to 2024.
 Data Engineering Pipeline Architecture
 The project implemented a data pipeline utilizing Amazon Web Services(AWS) infrastructure. Raw data ingestion begins with batch processing through Python scripts, storing the ACLED dataset in an S3 bucket (Data Lake). Data processing occurs within Docker containers running on EC2 instances, with Apache Airflow orchestrating the workflow through DAG implementation. This architecture ensures efficient data flow from ingestion through transformation to final analysis. All code and documentation are maintained in GitHub repository (https://github.com/tenageb
+
+![image](https://github.com/user-attachments/assets/2f909120-004d-4b47-a86e-26b4b0973e3e)
+
  
 
 **Data Quality Assessment and Preprocessing**
