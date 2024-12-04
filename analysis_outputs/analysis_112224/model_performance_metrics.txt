@@ -1,0 +1,28 @@
+Model Performance Metrics
+========================
+
+Regression Metrics:
+MSE: 308.14
+RMSE: 17.55
+R² Score: 0.45
+
+Top Features for Regression:
+- longitude: 0.4176
+- latitude: 0.1936
+- month: 0.1911
+- time_precision: 0.0753
+- day_of_week: 0.0506
+
+Classification Metrics:
+                            precision    recall  f1-score   support
+
+                   Battles       0.63      0.38      0.47     19397
+Explosions/Remote violence       0.31      0.77      0.44      5718
+                  Protests       1.00      0.99      0.99     17785
+                     Riots       0.96      0.98      0.97      8176
+    Strategic developments       0.31      0.46      0.37      6979
+Violence against civilians       0.65      0.50      0.57     18530
+
+                  accuracy                           0.65     76585
+                 macro avg       0.64      0.68      0.63     76585
+              weighted avg       0.70      0.65      0.66     76585
